@@ -65,7 +65,19 @@ class Blockchain{
 
 let SimpleCoin = new Blockchain();
 console.log('Mining block 1...');
-SimpleCoin.addBlock(new Block(1, "20/07/2017", { amount: 4 }));
+SimpleCoin.addBlock(new Block(1, "15/12/2017", { amount: 4 }));
 
 console.log('Mining block 2...');
-SimpleCoin.addBlock(new Block(2, "20/07/2017", { amount: 8 }));
+SimpleCoin.addBlock(new Block(2, "15/12/2017", { amount: 8 }));
+
+console.log('Mining block 3...');
+SimpleCoin.addBlock(new Block(3, "15/12/2017", { amount: 12 }));
+
+console.log('Mining block 4...');
+SimpleCoin.addBlock(new Block(1, "15/12/2017", { amount: 16 }));
+
+console.log('Mining block 5...');
+SimpleCoin.addBlock(new Block(2, "15/12/2017", { amount: 20 }));
+
+console.log('Mining block 6...');
+SimpleCoin.addBlock(new Block(3, "15/12/2017", { amount: 24 }));
